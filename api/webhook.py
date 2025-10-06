@@ -6,7 +6,7 @@ from aiogram.client.bot import DefaultBotProperties
 from aiogram.enums import ParseMode
 
 BOT_TOKEN = "8345607034:AAF6eEPTR0aMxxaRbxehJqPGw05LO1Kzca4"
-SOURCE_CHANNEL_ID = -1002579803044
+SOURCE_CHANNEL_ID = -2579803044
 TARGET_CHAT_ID = -1009876543210
 
 bot = Bot(token=BOT_TOKEN, default=DefaultBotProperties(parse_mode=ParseMode.HTML))
