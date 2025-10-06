@@ -1,14 +1,13 @@
-import os
 import asyncio
 from aiohttp import web
 from aiogram import Bot
 from aiogram.client.bot import DefaultBotProperties
 from aiogram.enums import ParseMode
 
-# ⚙️ Переменные окружения в Vercel Dashboard
-BOT_TOKEN = os.getenv("8345607034:AAF6eEPTR0aMxxaRbxehJqPGw05LO1Kzca4")
-SOURCE_CHANNEL_ID = int(os.getenv("-1002579803044"))  # канал, откуда репостим
-TARGET_CHAT_ID = int(os.getenv("-1002869860411"))        # группа, куда репостим
+# ✅ Прямо в коде
+BOT_TOKEN = "ВАШ_ТОКЕН_БОТА"
+SOURCE_CHANNEL_ID = -1002579803044  # ID канала
+TARGET_CHAT_ID = -1009876543210     # ID группы
 
 bot = Bot(token=BOT_TOKEN, default=DefaultBotProperties(parse_mode=ParseMode.HTML))
 
