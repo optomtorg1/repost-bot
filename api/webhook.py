@@ -5,7 +5,7 @@ from aiogram.client.bot import DefaultBotProperties
 from aiogram.enums import ParseMode
 
 # ✅ Прямо в коде
-BOT_TOKEN = "ВАШ_ТОКЕН_БОТА"
+BOT_TOKEN = "8345607034:AAF6eEPTR0aMxxaRbxehJqPGw05LO1Kzca4"
 SOURCE_CHANNEL_ID = -1002579803044  # ID канала
 TARGET_CHAT_ID = -1009876543210     # ID группы
 
